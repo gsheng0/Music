@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2b41b21-3ae9-455f-94d1-2838cba100a1" name="Default Changelist" comment="" />
+    <list default="true" id="a2b41b21-3ae9-455f-94d1-2838cba100a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Music.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Music/PitchTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Music/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Music/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Music/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Music/basic/Pitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Music/basic/Pitch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Music/LibraryTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,25 +28,89 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1XlyOVI6s5BtNB2eqgqH37X6kAS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Music" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\myapp\Music\src\main\java\Music" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestRunner">
+    <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Music.TestRunner" />
+      <module name="Music.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Music.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Music [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Music" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -51,9 +128,60 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="PitchTesting" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;Music.PitchTesting&quot; --info" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PitchTesting.pitchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;Music.PitchTesting.pitchTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.Music" />
+      <item itemvalue="Gradle.Music [dependencies]" />
+      <item itemvalue="Gradle.PitchTesting" />
+      <item itemvalue="Gradle.PitchTesting.pitchTest" />
+      <item itemvalue="Application.TestRunner" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestRunner" />
+        <item itemvalue="Gradle.PitchTesting" />
+        <item itemvalue="Gradle.PitchTesting.pitchTest" />
         <item itemvalue="Gradle.Music" />
+        <item itemvalue="Gradle.Music [dependencies]" />
       </list>
     </recent_temporary>
   </component>
@@ -83,9 +211,49 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1581712275829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581712275829" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581822647758">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581822647758" />
+    <state x="808" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581793781369">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="808" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581793781369" />
     <state x="683" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1581635474243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="683" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581635474243" />
+    <state width="914" height="274" key="GridCell.Tab.0.bottom" timestamp="1581823240629">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="274" key="GridCell.Tab.0.bottom/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581823240629" />
+    <state width="914" height="274" key="GridCell.Tab.0.center" timestamp="1581823240629">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="274" key="GridCell.Tab.0.center/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581823240629" />
+    <state width="914" height="274" key="GridCell.Tab.0.left" timestamp="1581823240629">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="274" key="GridCell.Tab.0.left/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581823240629" />
+    <state width="914" height="274" key="GridCell.Tab.0.right" timestamp="1581823240629">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="274" key="GridCell.Tab.0.right/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581823240629" />
+    <state x="970" y="178" key="Maven.ArtifactSearchDialog" timestamp="1581822973891">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="970" y="178" key="Maven.ArtifactSearchDialog/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581822973891" />
+    <state x="922" y="165" key="SettingsEditor" timestamp="1581823209767">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="922" y="165" key="SettingsEditor/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581823209767" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1581793648351">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581793648351" />
   </component>
 </project>

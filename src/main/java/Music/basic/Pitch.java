@@ -97,7 +97,7 @@ public class Pitch implements Comparable<Pitch>{
     public Pitch raise(Interval interval)
     {
         int diatonicDistance = interval.getDiatonicInterval().getCardinalNumber();
-        DoublyLinkedList.ListNode<Character> listNode = MusicUtils.pitches.get(MusicUtils.pitches.indexOf(this.pitch));
+        DoublyLinkedList<Character>.ListNode<Character> listNode = MusicUtils.pitches.get(MusicUtils.pitches.indexOf(this.pitch));
         for(int i = 0; i < diatonicDistance - 1; i++) {
             if(listNode.getValue() == 'G')
                 octave++;
