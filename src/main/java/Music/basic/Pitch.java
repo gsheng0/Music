@@ -20,7 +20,7 @@ public class Pitch implements Comparable<Pitch>{
         this.pitch = Jajtils.toUpperCase(pitch);
         this.accidental = accidental;
         this.octave = octave;
-        this.steps = MusicUtils.pitchToSteps.get(pitch) + accidental + octave * 12;
+        this.steps = MusicUtils.pitchToSteps.get(this.pitch) + accidental + octave * 12;
     }
 
     public Pitch(char pitch)

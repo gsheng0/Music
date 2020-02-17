@@ -5,7 +5,7 @@ import Music.basic.Pitch;
 
 import java.util.ArrayList;
 
-public class DoubleStop extends Chord {
+public class DoubleStop extends MultiPitch {
     private ArrayList<Pitch> pitches;
     private Pitch root;
     private ArrayList<Interval> intervalList;

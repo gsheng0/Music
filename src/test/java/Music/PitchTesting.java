@@ -4,6 +4,7 @@ import Music.basic.Interval;
 import Music.basic.Pitch;
 import org.junit.Before;
 import org.junit.Test;
+
 import static org.junit.Assert.*;
 
 public class PitchTesting {
@@ -17,12 +18,10 @@ public class PitchTesting {
     @Test
     public void pitchTest()
     {
-
-        System.out.println(a1.getSteps());
-        assertSame("Note perfect fifth above G4 should be D5", g, d.getPitchIntervalAbove(Interval.PERFECT_FIFTH));
+        assertEquals("Note perfect fifth above G4 should be D5", d.toString(), g.getPitchIntervalAbove(Interval.PERFECT_FIFTH).toString());
         assertSame("Octaves should be stored correctly", d.getOctave(), 5);
         assertSame("Accidentals should be stored correctly", g.getAccidental(), Pitch.NATURAL);
-        assertSame("Step counts should be based above A1", a1.getSteps(), 0);
+        assertSame("Step counts should be based above A0", a1.getSteps(), 12);
 
     }
 }

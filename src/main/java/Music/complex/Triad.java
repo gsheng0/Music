@@ -6,10 +6,11 @@ import Music.quality.interfaces.TriadQuality;
 
 import java.util.ArrayList;
 
-public class Triad extends Chord {
+public class Triad extends StandardChord{
     private ArrayList<Pitch> pitches = new ArrayList<>();
     private Pitch root;
     private Class<? extends TriadQuality> quality;
+    private ArrayList<Interval> intervals = new ArrayList<>();
 
     public Triad(Pitch root, Class<? extends TriadQuality> quality)
     {
@@ -17,7 +18,7 @@ public class Triad extends Chord {
         this.root = root;
         pitches.add(root);
 
-        ArrayList<Interval> intervals = new ArrayList<>();
+        intervals = new ArrayList<>();
         try{
             intervals = quality.newInstance().getTriadIntervals();
         }
@@ -33,20 +34,7 @@ public class Triad extends Chord {
 
     public ArrayList<Pitch> getPitches() { return pitches; }
     public Pitch getRoot() { return root; }
-    public ArrayList<Interval> getIntervalList()
-    {
-        ArrayList<Interval> intervals = new ArrayList<>();
-        try
-        {
-            intervals = quality.newInstance().getTriadIntervals();
-        }
-        catch(Exception e)
-        {
-            System.out.println(e);
-        }
-        return intervals;
-    }
-
+    public ArrayList<Interval> getIntervalList() { return intervals; }
     public Class<? extends TriadQuality> getQuality() {
         return quality;
     }

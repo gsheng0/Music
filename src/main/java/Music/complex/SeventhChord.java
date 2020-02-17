@@ -6,7 +6,7 @@ import Music.quality.interfaces.SeventhChordQuality;
 
 import java.util.ArrayList;
 
-public class SeventhChord  extends Chord{
+public class SeventhChord  extends StandardChord {
     private Class<? extends SeventhChordQuality> quality;
     private Pitch root;
     private ArrayList<Pitch> pitches;

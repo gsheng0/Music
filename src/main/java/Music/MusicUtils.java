@@ -2,7 +2,7 @@ package Music;
 
 import java.util.HashMap;
 
-public class MusicUtils {
+public class  MusicUtils {
     public static DoublyLinkedList<Character> pitches = new DoublyLinkedList<>();
     public static HashMap<Integer, Integer> intervalToDistance = new HashMap<>();
     public static HashMap<Character, Integer> pitchToSteps = new HashMap<>();
