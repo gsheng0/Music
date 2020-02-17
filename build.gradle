@@ -68,6 +68,12 @@ task testDir {
     }
 }
 
+task another{
+    doFirst{
+        println "Another"
+    }
+}
+
 task hi(dependsOn: 'hello'){
     doLast{
         println "hi, $person"
