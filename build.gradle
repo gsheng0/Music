@@ -6,6 +6,8 @@
  * User Manual available at https://docs.gradle.org/6.1.1/userguide/java_library_plugin.html
  */
 
+
+
 plugins {
     // Apply the java-library plugin to add support for Java Library
     id 'java-library'
@@ -36,10 +38,39 @@ dependencies {
 test {
     useJUnitPlatform()
 }
-
+ext.person = 'JAJ'
 task hello {
+
+    doFirst{
+        println "hello $person"
+    }
     doLast {
-        println "hello world"
+        println "My name is Gradle"
+    }
+}
+
+task varInit{
+    ext.jaj = "George"
+    ext.banjo = "Sanjana"
+    ext.yushy = "Ayush"
+    ext.badhu = "Shradha"
+    ext.karinya = "Karina"
+}
+
+task printVar{
+    println varInit.jaj
+}
+
+task testDir {
+    doLast{
+        println Test.toString()
+
+    }
+}
+
+task hi(dependsOn: 'hello'){
+    doLast{
+        println "hi, $person"
     }
 }
 
