@@ -33,9 +33,4 @@ public class DoubleStop extends MultiPitch {
 
     public int pitchCount() { return pitches.size(); }
     public ArrayList<Pitch> getPitches() { return pitches; }
-
-    @Override
-    public Class getQuality() {
-        return null;
-    }
 }
