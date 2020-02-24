@@ -74,6 +74,12 @@ task another{
     }
 }
 
+task otherBranch{
+    doFirst{
+        println "This is the other branch"
+    }
+}
+
 task hi(dependsOn: 'hello'){
     doLast{
         println "hi, $person"

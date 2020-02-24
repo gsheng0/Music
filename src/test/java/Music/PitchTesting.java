@@ -14,6 +14,8 @@ public class PitchTesting {
         d = new Pitch('d', Pitch.NATURAL, 5);
         g = new Pitch('g', Pitch.NATURAL, 4);
         a1 = new Pitch('a', Pitch.NATURAL, 1);
+
+        System.out.println(d.equals(g.getPitchIntervalAbove(Interval.PERFECT_FIFTH)));
     }
     @Test
     public void pitchTest()

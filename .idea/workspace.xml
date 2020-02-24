@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a2b41b21-3ae9-455f-94d1-2838cba100a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Music/complex/Chord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Music/complex/Chord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Music/complex/DoubleStop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Music/complex/DoubleStop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Music/complex/SeventhChord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Music/complex/SeventhChord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Music/complex/Triad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Music/complex/Triad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/Music/PitchTesting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/Music/PitchTesting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Music/complex/DoubleStop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Music/complex/DoubleStop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +25,17 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Music" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Music" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -75,7 +78,7 @@
       <recent name="C:\myapp\Music\src\main\java\Music" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Music">
+  <component name="RunManager" selected="JUnit.PitchTesting">
     <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Music.TestRunner" />
       <module name="Music.test" />
@@ -162,16 +165,16 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TestRunner" />
       <item itemvalue="Gradle.Music" />
       <item itemvalue="Gradle.PitchTesting" />
       <item itemvalue="Gradle.PitchTesting.pitchTest" />
-      <item itemvalue="Application.TestRunner" />
       <item itemvalue="JUnit.PitchTesting" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Music" />
         <item itemvalue="JUnit.PitchTesting" />
+        <item itemvalue="Gradle.Music" />
         <item itemvalue="Application.TestRunner" />
         <item itemvalue="Gradle.PitchTesting" />
         <item itemvalue="Gradle.PitchTesting.pitchTest" />
@@ -216,10 +219,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581891909931" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1581892165159">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1581965059897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581892165159" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581965059897" />
     <state x="808" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581793781369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -232,22 +235,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="582" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581892141502" />
-    <state width="914" height="338" key="GridCell.Tab.0.bottom" timestamp="1581961436470">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1581970033379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="338" key="GridCell.Tab.0.bottom/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581961436470" />
-    <state width="914" height="338" key="GridCell.Tab.0.center" timestamp="1581961436470">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581970033379" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1581970033379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="338" key="GridCell.Tab.0.center/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581961436470" />
-    <state width="914" height="338" key="GridCell.Tab.0.left" timestamp="1581961436469">
+    <state width="1877" height="274" key="GridCell.Tab.0.center/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581970033379" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1581970033378">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="338" key="GridCell.Tab.0.left/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581961436469" />
-    <state width="914" height="338" key="GridCell.Tab.0.right" timestamp="1581961436470">
+    <state width="1877" height="274" key="GridCell.Tab.0.left/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581970033378" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1581970033379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="338" key="GridCell.Tab.0.right/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581961436470" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581970033379" />
+    <state width="914" height="338" key="GridCell.Tab.1.bottom" timestamp="1581962196540">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="338" key="GridCell.Tab.1.bottom/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581962196540" />
+    <state width="914" height="338" key="GridCell.Tab.1.center" timestamp="1581962196540">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="338" key="GridCell.Tab.1.center/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581962196540" />
+    <state width="914" height="338" key="GridCell.Tab.1.left" timestamp="1581962196540">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="338" key="GridCell.Tab.1.left/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581962196540" />
+    <state width="914" height="338" key="GridCell.Tab.1.right" timestamp="1581962196540">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="338" key="GridCell.Tab.1.right/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581962196540" />
     <state x="970" y="178" key="Maven.ArtifactSearchDialog" timestamp="1581822973891">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -260,5 +279,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581793648351" />
+    <state x="0" y="135" key="new project wizard" timestamp="1581987640428">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="135" key="new project wizard/-1366.311.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1581987640428" />
   </component>
 </project>
